@@ -8,6 +8,9 @@ function App() {
     <div className="App">
         <Card title="Hey!" paragraph="I am typescript Componenet" />
         <Cat status={200} info="Hey I am some interesting cat fact"></Cat>
+        {/* <Cat status={100} info="Hey I am some interesting cat fact"></Cat>
+        <Cat status={101} info="Hey I am some interesting cat fact"></Cat>
+        <Cat status={102} info="Hey I am some interesting cat fact"></Cat> */}
     </div>
   );
 }
