@@ -1,0 +1,23 @@
+:root{
+  --searchBoxHeight: 50px;
+}
+
+.search-container {
+  display: flex;
+  width: 60%;
+  padding: 16px;
+  margin: 0 auto;
+  justify-content: center;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+
+.input-container{
+  display: flex;
+}
+
+button{
+  border-radius: 5%;
+  width: 50%;
+}

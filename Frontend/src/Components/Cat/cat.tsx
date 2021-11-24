@@ -1,4 +1,4 @@
-import './cat.module.css';
+import './cat.css';
 
 type CatProps = {
   status:number,

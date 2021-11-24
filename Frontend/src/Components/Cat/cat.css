@@ -1,13 +1,12 @@
 :root {
-  --cat-container-width: 750px;
-  --cat-container-heigh: 500px;
+  --cat-container-width: 40%;
+  --cat-container-heigh: 300px;
   --cat-container-background-color: #1c1c3fc7;
-  --cat-container-heigh: 500px;
+  --cat-container-heigh: 4500px;
   --pixles16: 16px;
 }
 
-
-div[class="cat-container"]{
+.cat-container{
   display: flex;
   flex-direction: column;
   padding: var(--pixles16);
@@ -18,7 +17,7 @@ div[class="cat-container"]{
   border-radius: 5%;
   }
 
-  div[class="cat-container-content"]{
+ .cat-container-content{
     display: flex;
     align-items: center;
     flex-direction: row;
