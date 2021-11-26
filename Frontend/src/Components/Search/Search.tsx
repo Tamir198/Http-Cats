@@ -1,24 +1,26 @@
-import { useState } from "react"
+import { FormEventHandler, Props, useState } from "react"
 
 import './search.css'
 
-
-export const Search = () => {
-const [input, setInput] = useState(0); 
-
-const handleEnterClicked = (e:any) => {
-  setInput(e.target.value)
+interface SearchProps {
+  showStatusCodeUI: any,
 }
 
+export const Search = (props: SearchProps) => {
+  const [input, setInput] = useState<String>();
+
+  const handleInputChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+    setInput(e.target.value);
+  }
 
   return <div className="search-container">
-      <label className="input-hint"
-       htmlFor="satusInput">Enter a number and watch http cat
-       </label>
-       <div className="input-container">
-        <input type="number" id="satusInput"/>
-        <button onClick={handleEnterClicked}>Give me a cat</button>
-       </div>
+    <label className="input-hint"
+      htmlFor="satusInput">Enter a number and watch http cat
+    </label>
+    <div className="input-container">
+      <input onInput={handleInputChange} type="number" id="satusInput" />
+      <button onClick={() => props.showStatusCodeUI(input)}>Give me a cat</button>
+    </div>
   </div>
 }
 
