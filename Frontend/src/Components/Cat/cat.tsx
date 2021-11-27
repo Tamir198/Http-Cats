@@ -2,8 +2,9 @@ import './cat.css';
 
 type CatProps = {
   status:number,
-  info:string,
-  catFact:string
+  info:any,
+  statusCodemeaning:any
+  catFact:any
 }
 
 export const Cat = (props:CatProps) =>{
@@ -14,6 +15,8 @@ export const Cat = (props:CatProps) =>{
       <p>{props.info}</p>
     </div>
     <p>{props.catFact}</p>
+    <p>{props.statusCodemeaning}</p>
+
 
   </div>
   

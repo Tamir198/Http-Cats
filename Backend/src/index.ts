@@ -1,12 +1,15 @@
 import express from 'express'
+
+var cors = require('cors')
 const app = express()
-const port = 5000
+app.use(cors());
+
+const port = 8888
 
 var Data = require('./DB/mockData');
-
 let test:string = "Hey from server using ts";
 
-app.get('/', (_, res) => {
+app.get('/allData', (_, res) => {
   res.status(200).send(Data)
 })
 
