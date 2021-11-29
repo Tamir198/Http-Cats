@@ -6,15 +6,24 @@
   display: flex;
   width: 60%;
   padding: 16px;
-  margin: 0 auto;
+  margin-left: 40%;
   justify-content: center;
   flex-wrap: wrap;
   justify-content: center;
 }
 
+.search-container *{
+  margin: 1%;
+}
+
 
 .input-container{
   display: flex;
+}
+
+.input-hint{
+  background-color: rgb(255, 246, 246);
+  padding: 6px;
 }
 
 button{

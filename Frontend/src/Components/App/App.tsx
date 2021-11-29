@@ -10,6 +10,7 @@ function App() {
   const [catFunFact, setCatFunFact] = useState();
   const [statusCodeMeaning, setStatusCodeMeaning] = useState();
   const [statusCodeDetails, setStatusCodeDetails] = useState();
+  
 
   useEffect(() => {
     statusCodeInfo(statusCode, setStatusCodeMeaning, setStatusCodeDetails, setCatFunFact);
