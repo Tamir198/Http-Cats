@@ -1,4 +1,4 @@
-import { FormEventHandler, Props, useState } from "react"
+import {useState } from "react"
 
 import './search.css'
 
@@ -15,11 +15,11 @@ export const Search = (props: SearchProps) => {
 
   return <div className="search-container">
     <label className="input-hint"
-      htmlFor="satusInput">Enter a number and watch http cat
+      htmlFor="satusInput">Enter status code
     </label>
     <div className="input-container">
       <input onInput={handleInputChange} type="number" id="satusInput" />
-      <button onClick={() => props.showStatusCodeUI(input)}>Give me a cat</button>
+      <button onClick={() => props.showStatusCodeUI(input)}>Ok</button>
     </div>
   </div>
 }

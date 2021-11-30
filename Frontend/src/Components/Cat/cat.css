@@ -1,8 +1,8 @@
 :root {
   --cat-container-width: 40%;
   --cat-container-heigh: 300px;
-  --cat-container-background-color: #1c1c3fc7;
-  --cat-container-heigh: 4500px;
+  --cat-container-background-color: rgb(190, 187, 187);
+  --cat-container-heigh: 450px;
   --pixles16: 16px;
 }
 
@@ -14,7 +14,8 @@
   height : var(--cat-container-height);
   margin: 0px auto;
   background-color:  var(--cat-container-background-color);
-  border-radius: 5%;
+  border: 6px solid black;
+  border-radius: 18%;
   }
 
  .cat-container-content{
@@ -26,17 +27,30 @@
 
 img{
   width: 60%;
-  height: 80%;
+  height: 100%;
+  width: 50%;
+  max-height:300px;
+  max-width: 400px;
   border-radius: var(--pixles16);
-}
-
-
-.img:hover  {
-  transform: rotateY(180deg);
 }
 
 h1{
   color: rgb(2, 9, 10);
 }
+
+@media only screen and (max-width: 600px) {
+  .cat-container{
+    width: 100%;
+    width: -moz-available;          /* WebKit-based browsers will ignore this. */
+    width: -webkit-fill-available;  /* Mozilla-based browsers will ignore this. */
+    width: fill-available;
+    margin: 5%;
+    border-radius: 5%;
+  }
+  .cat-container-content{
+    display: block;
+  }
+}
+
 
 

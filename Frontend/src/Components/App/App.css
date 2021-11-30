@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+
+.App {
+  text-align: center;
+  font-weight: 700;
+  height: 100%;
+  width: 100%;
+  font-size: 1vw;
+}
+
+.main-content-container{
+  display: flex;
+}
+
+.main-content-container *{
+  margin:1%;
+  color: black;
+}
+h1, h2, h3, h4, h5, h6{
+  text-decoration: underline;
+}
+
+.title{
+  font-family: 'Muli', sans-serif;
+  color: rgba(0, 0, 0, 0.8);
+  font-weight: 700;
+  background-color: rgb(51, 41, 41,0.4);
+  letter-spacing: 0.4em;
+  padding: 50px;
+}
+
+body{
+  background-image: url("https://www.cartoonbrew.com/wp-content/uploads/2019/12/cats_history_main.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;                   
+}
+
+
+@media only screen and (max-width: 600px) {
+  .title{
+    font-size: px;
+  }
+
+  h1, h2,h3{
+    font-size: 24px;
+  }
+
+  p,ol,li{
+    font-size: 18px;
+  }
+
+  .main-content-container{
+    flex-direction: column;
+    align-items: center;
+  }
+
+}
+

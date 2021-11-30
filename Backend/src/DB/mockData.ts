@@ -72,310 +72,310 @@ module.exports = {
     },
     "101" :  {
       "meaning" : "Switching Protocols",
-      "FunFact": "",
+      "FunFact": "Cats are believed to be the only mammals who don’t taste sweetness.",
       "statusCodeDetails": DETAILS.SwitchingProtocols
     },
     "102" :  {
       "meaning" : "Processing ",
-      "FunFact": "",
+      "FunFact": "Cats are nearsighted, but their peripheral vision and night vision are much better than that of humans.",
       "statusCodeDetails": DETAILS.Processing 
     },
     "200" :  {
       "meaning" : "OK",
-      "FunFact": "",
+      "FunFact": "Cats are supposed to have 18 toes (five toes on each front paw; four toes on each back paw).",
       "statusCodeDetails": DETAILS.Ok 
     },
     "201" :  {
       "meaning" : "Created",
-      "FunFact": "",
+      "FunFact": "Cats can jump up to six times their length.",
       "statusCodeDetails": DETAILS.Created 
     },
     "202" :  {
       "meaning" : "Accepted",
-      "FunFact": "",
+      "FunFact": "Cats’ collarbones don’t connect to their other bones, as these bones are buried in their shoulder muscles.",
       "statusCodeDetails": DETAILS.Accepted 
     },
     "203" :  {
       "meaning" : "Non-Authoritative Information",
-      "FunFact": "",
+      "FunFact": "Cats have 230 bones, while humans only have 206.",
       "statusCodeDetails": DETAILS.NonAuthoritative 
     },
     "204" :  {
       "meaning" : "No Content",
-      "FunFact": "",
+      "FunFact": "Cats have an extra organ that allows them to taste scents on the air, which is why your cat stares at you with her mouth open from time to time.",
       "statusCodeDetails": DETAILS.NoContent 
     },
     "206" :  {
       "meaning" : "Partial Content",
-      "FunFact": "",
+      "FunFact": "Cats have whiskers on the backs of their front legs, as well.",
       "statusCodeDetails": DETAILS.PartialContent  
     },
     "207" :  {
       "meaning" : "Multi-Status",
-      "FunFact": "",
+      "FunFact": "Cats have nearly twice the amount of neurons in their cerebral cortex as dogs.",
       "statusCodeDetails": DETAILS.MultiStatus 
     },
     "300" :  {
       "meaning" : "Multiple Choices",
-      "FunFact": "",
+      "FunFact": "Cats have the largest eyes relative to their head size of any mammal.",
       "statusCodeDetails": DETAILS.MultipleChoices 
     },
     "301" :  {
       "meaning" : "Moved Permanently",
-      "FunFact": "",
+      "FunFact": "Cats make very little noise when they walk around. The thick, soft pads on their paws allow them to sneak up on their prey — or you!",
       "statusCodeDetails": DETAILS.MovedPermanently 
     },
     "302" :  {
       "meaning" : " Found (Previously Moved temporarily)",
-      "FunFact": "",
+      "FunFact": "Cats’ rough tongues can lick a bone clean of any shred of meat.",
       "statusCodeDetails": DETAILS.Found 
     },
     "303" :  {
       "meaning" : "See Other",
-      "FunFact": "",
+      "FunFact": "Cats use their long tails to balance themselves when they’re jumping or walking along narrow ledges.",
       "statusCodeDetails": DETAILS.SeeOther 
     },
     "304" :  {
       "meaning" : "Not Modified",
-      "FunFact": "",
+      "FunFact": "Cats use their whiskers to “feel” the world around them in an effort to determine which small spaces they can fit into. A cat’s whiskers are generally about the same width as its body. (This is why you should never, EVER cut their whiskers.)",
       "statusCodeDetails": DETAILS.NotModified 
     },
     "305" :  {
       "meaning" : "Use Proxy (since HTTP/1.1)",
-      "FunFact": "",
+      "FunFact": "Cats walk like camels and giraffes: They move both of their right feet first, then move both of their left feet. No other animals walk this way.",
       "statusCodeDetails": DETAILS.UseProxy 
     },
     "307" :  {
       "meaning" : "Temporary Redirect",
-      "FunFact": "",
+      "FunFact": "Male cats are more likely to be left-pawed, while female cats are more likely to be right-pawed.",
       "statusCodeDetails": DETAILS.TemporaryRedirect 
     },
     "308" :  {
       "meaning" : "Permanent Redirect",
-      "FunFact": "",
+      "FunFact": "Though cats can notice the fast movements of their prey, it often seems to them that slow-moving objects are actually stagnant.",
       "statusCodeDetails": DETAILS.PermanentRedirect 
     },
     "400" :  {
       "meaning" : "Bad Request",
-      "FunFact": "",
+      "FunFact": "Some cats are ambidextrous, but 40 percent are either left- or right-pawed.",
       "statusCodeDetails": DETAILS.BadRequest 
     },
     "401" :  {
       "meaning" : "Unauthorized",
-      "FunFact": "",
+      "FunFact": "Some cats can swim.",
       "statusCodeDetails": DETAILS.Unauthorized  
     },
     "402" :  {
       "meaning" : "Payment Required",
-      "FunFact": "",
+      "FunFact": "There are cats who have more than 18 toes. These extra-digit felines are referred to as being “polydactyl.”",
       "statusCodeDetails": DETAILS.PaymentRequired 
     },
     "403" :  {
       "meaning" : "Forbidden",
-      "FunFact": "",
+      "FunFact": "A cat’s average lifespan increased by a year over the span of time between 2002 and 2012, according to a study by Banfield Pet Hospital.",
       "statusCodeDetails": DETAILS.Forbidden 
     },
     "404" :  {
       "meaning" : "Not Found",
-      "FunFact": "",
+      "FunFact": "According to The Huffington Post, cats typically sleep for 12 to 16 hours a day.",
       "statusCodeDetails": DETAILS.NotFound 
     },
     "405" :  {
       "meaning" : "Method Not Allowed",
-      "FunFact": "",
+      "FunFact": "Cats are crepuscular, which means that they’re most active at dawn and dusk.",
       "statusCodeDetails": DETAILS.MethodNotAllowed 
     },
     "406" :  {
       "meaning" : "Not Acceptable",
-      "FunFact": "",
+      "FunFact": "Cats are fastidious creatures about their “bathroom.” If you have more than one cat, you should have one litter box for each.",
       "statusCodeDetails": DETAILS.NotAcceptable 
     },
     "407" :  {
       "meaning" : "Proxy Authentication Required",
-      "FunFact": "",
+      "FunFact": "Cats can spend up to a third of their waking hours grooming.",
       "statusCodeDetails": DETAILS.ProxyAuthenticationRequired 
     },
     "408" :  {
       "meaning" : "Request Timeout",
-      "FunFact": "",
+      "FunFact": "Cats live longer when they stay indoors.",
       "statusCodeDetails": DETAILS.RequestTimeout 
     },
     "409" :  {
       "meaning" : "Conflict",
-      "FunFact": "",
+      "FunFact": "Cats’ purring may be a self-soothing behavior, since they make this noise when they’re ill or distressed, as well as when they’re happy.",
       "statusCodeDetails": DETAILS.Conflict 
     },
     "410" :  {
       "meaning" : "Gone",
-      "FunFact": "",
+      "FunFact": "Cats will refuse an unpalatable food to the point of starvation.",
       "statusCodeDetails": DETAILS.Gone 
     },
     "411" :  {
       "meaning" : "Length Required",
-      "FunFact": "",
+      "FunFact": "Despite popular belief, many cats are actually lactose intolerant.",
       "statusCodeDetails": DETAILS.LengthRequired 
     },
     "412" :  {
       "meaning" : "Precondition Failed",
-      "FunFact": "",
+      "FunFact": "Female cats have the ability to get pregnant when they are only 4 months old!",
       "statusCodeDetails": DETAILS.PreconditionFailed 
     },
     "413" :  {
       "meaning" : "Payload Too Large",
-      "FunFact": "",
+      "FunFact": "Grapes and raisins, as well as onions, garlic, and chives, are all extremely harmful foods for cats. Grapes and raisins can cause kidney failure — although the reasoning behind that isn’t clear. Meanwhile, onions, garlic, and chives wreak havoc on your cat’s gastrointestinal system and can cause anemia.",
       "statusCodeDetails": DETAILS.PayloadTooLarge 
     },
     "414" :  {
       "meaning" : "URI Too Long",
-      "FunFact": "",
+      "FunFact": "Kittens can be spayed or neutered when they are only eight weeks old. If possible, these procedures should be performed in the first 5 months of your cat’s life.",
       "statusCodeDetails": DETAILS.URITooLong 
     },
     "415" :  {
       "meaning" : "Unsupported Media Type",
-      "FunFact": "",
+      "FunFact": "Male cats who have been fixed need fewer calories to maintain their weight.",
       "statusCodeDetails": DETAILS.UnsupportedMediaType 
     },
     "416" :  {
       "meaning" : "Range Not Satisfiable",
-      "FunFact": "",
+      "FunFact": "Spaying and neutering can extend a cat’s life. The Banfield Pet Hospital study found that neutered males live an average of 62 percent longer than unneutered cats and spayed females live an average of 39 percent longer than unspayed cats.",
       "statusCodeDetails": DETAILS.RangeNotSatisfiable 
     },
     "417" :  {
       "meaning" : "Expectation Failed",
-      "FunFact": "",
+      "FunFact": "Your cat’s grooming process stimulates blood flow to his skin, regulates his body temperature and helps him relax.",
       "statusCodeDetails": DETAILS.ExpectationFailed 
     },
     "418" :  {
       "meaning" : " I'm a teapot",
-      "FunFact": "",
+      "FunFact": "A cat with a question-mark-shaped tail is asking, “Want to play?”",
       "statusCodeDetails": DETAILS.Teapot 
     },
     "421" :  {
       "meaning" : "Misdirected Request",
-      "FunFact": "",
+      "FunFact": "According to Wilde, a slow blink is a “kitty kiss.” This movement shows contentment and trust.",
       "statusCodeDetails": DETAILS.MisdirectedRequest 
     },
     "422" :  {
       "meaning" : "Unprocessable Entity",
-      "FunFact": "",
+      "FunFact": "Cats have a unique “vocabulary” with their owner — each cat has a different set of vocalizations, purrs and behaviors.",
       "statusCodeDetails": DETAILS.UnprocessableEntity 
     },
  
     "423" :  {
       "meaning" : "Locked",
-      "FunFact": "",
+      "FunFact": "Cats have up to 100 different vocalizations — dogs only have 10.",
       "statusCodeDetails": DETAILS.Locked  
     },
     "424" :  {
       "meaning" : "Failed Dependency",
-      "FunFact": "",
+      "FunFact": "Cats find it threatening when you make direct eye contact with them.",
       "statusCodeDetails": DETAILS.FailedDependency 
     },
     "425" :  {
       "meaning" : "Too Early",
-      "FunFact": "",
+      "FunFact": "Cats may yawn as a way to end a confrontation with another animal. Think of it as their “talk to the hand” gesture.",
       "statusCodeDetails": DETAILS.TooEarly 
     },
     "426" :  {
       "meaning" : "Upgrade Required",
-      "FunFact": "",
+      "FunFact": "Hissing is defensive, not aggressive, says Wilde. “It’s an expression of fear, stress or discomfort of a threatened cat communicating ‘stay away,'” she says.",
       "statusCodeDetails": DETAILS.UpgradeRequired 
     },
     "428" :  {
       "meaning" : "Precondition Required",
-      "FunFact": "",
+      "FunFact": "If cats are fighting, the cat that’s hissing is the more vulnerable one, says Wilde.",
       "statusCodeDetails": DETAILS.PreconditionRequired 
     },
     "429" :  {
       "meaning" : "Too Many Requests",
-      "FunFact": "",
+      "FunFact": "If your cat approaches you with a straight, almost vibrating tail, this means that she is extremely happy to see you.",
       "statusCodeDetails": DETAILS.TooManyRequests 
     },
     "431" :  {
       "meaning" : "Request Header Fields Too Large",
-      "FunFact": "",
+      "FunFact": "Kneading — which some people refer to as “making biscuits” — is a sign of contentment and happiness. Cats knead their mothers when they are nursing to stimulate the let-down of milk.",
       "statusCodeDetails": DETAILS.HeaderTooLarge 
     },
     "444" :  {
       "meaning" : "No resonse",
-      "FunFact": "",
+      "FunFact": "Meowing is a behavior that cats developed exclusively to communicate with people.",
       "statusCodeDetails": DETAILS.NoResponse 
     },
     "451" :  {
       "meaning" : "Unavailable For Legal Reasons",
-      "FunFact": "",
+      "FunFact": "When a cat flops over and exposes his belly, it’s not always an invitation for a belly rub. A cat does this when he’s relaxed and showing trust.",
       "statusCodeDetails": DETAILS.UnavailableForLegalReasons 
     },
 
     "500" :  {
       "meaning" : "Internal Server Error",
-      "FunFact": "",
+      "FunFact": "When cats hit you with retracted claws, they’re playing, not attacking.",
       "statusCodeDetails": DETAILS.InternalServerError 
     },
     "501" :  {
       "meaning" : "Not Implemented",
-      "FunFact": "",
+      "FunFact": "When dogs wag their tails, they may be expressing happiness. But this isn’t the case for cats! When your cat wags her tail, it’s her way of warning you that you are getting on her last nerve.",
       "statusCodeDetails": DETAILS.NotImplemented 
     },
     "502" :  {
       "meaning" : "Bad Gateway",
-      "FunFact": "",
+      "FunFact": "When your cat sticks his butt in your face, he is doing so as a gesture of friendship.",
       "statusCodeDetails": DETAILS.BadGateway 
     },
     "503" :  {
       "meaning" : "Service Unavailable",
-      "FunFact": "",
+      "FunFact": "Whiskers are also good indicators of a cat’s mood. When a cat is scared, he put his whiskers back. But when a cat is in hunting mode, he puts his whiskers forward.",
       "statusCodeDetails": DETAILS.ServiceUnavailable 
     },
     "504" :  {
       "meaning" : "Gateway Timeout",
-      "FunFact": "",
+      "FunFact": "Your cat drapes its tail over another cat, your dog, or you as a symbol of friendship.",
       "statusCodeDetails": DETAILS.GatewayTimeout 
     },
     "506" :  {
       "meaning" : "Variant Also Negotiates",
-      "FunFact": "",
+      "FunFact": "Cats are very fussy about their water bowls; some prefer to ignore their bowls entirely in favor of drinking from the sink faucet.",
       "statusCodeDetails": DETAILS.VariantAlsoNegotiates 
     },
     "507" :  {
       "meaning" : "Insufficient Storage",
-      "FunFact": "",
+      "FunFact": "Cats groom other cats — and sometimes people — in a ritual called allogrooming.",
       "statusCodeDetails": DETAILS.InsufficientStorage 
     },
     "508" :  {
       "meaning" : "Loop Detected",
-      "FunFact": "",
+      "FunFact": "Cats like to sleep on things that smell like their owners, such as their pillows and dirty laundry (ick!).",
       "statusCodeDetails": DETAILS.LoopDetected 
     },
 
     "510" :  {
       "meaning" : "Not Extended",
-      "FunFact": "",
+      "FunFact": "Cats love to sleep in laundry baskets, too, because they’re basically hiding places with peep holes.",
       "statusCodeDetails": DETAILS.NotExtended 
     },
     "511" :  {
       "meaning" : "Upgrade RequiredNetwork Authentication Required ",
-      "FunFact": "",
+      "FunFact": "Cats often attack your ankles when they’re bored.",
       "statusCodeDetails": DETAILS.NetworkAuthenticationRequired  
     },
     "521" :  {
       "meaning" : "Web Server Is Down",
-      "FunFact": "",
+      "FunFact": "Certain cats go crazy for foods you wouldn’t expect, like olives, potato chips, and the hops in beer.",
       "statusCodeDetails": DETAILS.WebServerIsDown 
     },
     "523" :  {
       "meaning" : "Origin Is Unreachable",
-      "FunFact": "",
+      "FunFact": "For some reason, cats really dislike citrus scents.",
       "statusCodeDetails": DETAILS.OriginIsUnreachable 
     },
     "525" :  {
       "meaning" : "SSL Handshake Failed",
-      "FunFact": "",
+      "FunFact": "If you can’t find your cat, you should look in a box or a bag, as these are some of their favorite hiding spots!",
       "statusCodeDetails": DETAILS.SSLHandshakeFailed 
     },
     "599" :  {
       "meaning" : "Network Connect Timeout Error",
-      "FunFact": "",
+      "FunFact": "Some cats love the smell of chlorine.",
       "statusCodeDetails": DETAILS.NetworkConnectTimeoutError 
     },
 }

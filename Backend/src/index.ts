@@ -1,17 +1,19 @@
 import express from 'express'
+const cors = require('cors')
+
+const { port } = require('./config.json');
+var data = require('./DB/mockData');
+
 const app = express()
-const port = 5000
+app.use(cors());
 
-var Data = require('./DB/mockData');
 
-let test:string = "Hey from server using ts";
-
-app.get('/', (_, res) => {
-  res.status(200).send(Data)
+app.get('/allData', (_, res) => {
+  res.status(200).send(data);
 })
 
 app.get('/:statusCode', (req, res) => {
-  res.status(200).send(Data[req.params.statusCode])
+  res.status(200).send(data[req.params.statusCode]);
 })  
 
 app.listen(port, () => console.log(`Running on port ${port}`))
