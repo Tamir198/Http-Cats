@@ -4,7 +4,6 @@
 
 .search-container {
   display: flex;
-  width: 60%;
   padding: 16px;
   margin-left: 40%;
   justify-content: center;
@@ -30,4 +29,15 @@
 button{
   border-radius: 5%;
   width: 50%;
+}
+
+
+@media only screen and (max-width: 600px) {
+  .search-container{
+    margin-left: 0px;
+  }
+
+  .search-container *{
+    font-size: 16px;
+  }
 }
