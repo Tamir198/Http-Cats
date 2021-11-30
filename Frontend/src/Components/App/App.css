@@ -1,6 +1,10 @@
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+
 .App {
   text-align: center;
   font-weight: 700;
+  height: 100%;
+  width: 100%;
   font-size: 1vw;
 }
 
@@ -12,12 +16,17 @@
   margin:1%;
   color: black;
 }
-
+h1, h2, h3, h4, h5, h6{
+  text-decoration: underline;
+}
 
 .title{
-  width: 30%;
+  font-family: 'Muli', sans-serif;
+  color: rgba(0, 0, 0, 0.8);
+  font-weight: 700;
+  background-color: rgb(51, 41, 41,0.4);
+  letter-spacing: 0.4em;
   padding: 50px;
-  margin: 0 auto;
 }
 
 body{
