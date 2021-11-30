@@ -34,10 +34,23 @@ img{
   border-radius: var(--pixles16);
 }
 
-
-
 h1{
   color: rgb(2, 9, 10);
 }
+
+@media only screen and (max-width: 600px) {
+  .cat-container{
+    width: 100%;
+    width: -moz-available;          /* WebKit-based browsers will ignore this. */
+    width: -webkit-fill-available;  /* Mozilla-based browsers will ignore this. */
+    width: fill-available;
+    margin: 5%;
+    border-radius: 5%;
+  }
+  .cat-container-content{
+    display: block;
+  }
+}
+
 
 
